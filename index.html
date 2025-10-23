@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nông Sản Sạch - Tươi Ngon Từ Nông Trại</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Nông Sản Sạch – Tươi Ngon Từ Nông Trại Đến Bàn Ăn</h1>
+      <p>100% nông sản đạt chuẩn VietGAP – thu hoạch trong ngày, giao tận nơi chỉ trong 24h. Hãy để mỗi bữa ăn của bạn trở nên xanh – sạch – trọn vị yêu thương!</p>
+      <button class="cta-btn">Đặt Mua Ngay – Giảm 10% Cho Đơn Đầu Tiên!</button>
+    </div>
+  </header>
+
+  <!-- Products Section -->
+  <section class="products">
+    <h2>Sản Phẩm Tiêu Biểu</h2>
+    <div class="product-grid">
+      <div class="product" data-name="Combo Gia Đình Khỏe Mạnh" data-desc="Rau củ quả hỗn hợp tươi ngon mỗi ngày. Được đóng gói sạch sẽ, giao tận nhà." data-price="150.000đ">
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/salad-1239241_1280.jpg" alt="Combo Gia Đình Khỏe Mạnh" />
+        <h3>Combo Gia Đình Khỏe Mạnh</h3>
+        <p>150.000đ</p>
+      </div>
+
+      <div class="product" data-name="Combo Bữa Ăn Xanh" data-desc="Rau lá hữu cơ, củ quả tươi mới, giàu dinh dưỡng. Phù hợp cho mọi bữa ăn." data-price="120.000đ">
+        <img src="https://cdn.pixabay.com/photo/2016/02/19/10/00/vegetables-1209503_1280.jpg" alt="Combo Bữa Ăn Xanh" />
+        <h3>Combo Bữa Ăn Xanh</h3>
+        <p>120.000đ</p>
+      </div>
+
+      <div class="product" data-name="Combo Rau Củ Hữu Cơ" data-desc="100% hữu cơ, không thuốc trừ sâu. Canh tác bền vững, thân thiện môi trường." data-price="180.000đ">
+        <img src="https://cdn.pixabay.com/photo/2016/04/06/21/31/tomatoes-1318582_1280.jpg" alt="Combo Rau Củ Hữu Cơ" />
+        <h3>Combo Rau Củ Hữu Cơ</h3>
+        <p>180.000đ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="productModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <p class="modal-price" id="modalPrice"></p>
+      <button class="cta-btn">Đặt Ngay</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
